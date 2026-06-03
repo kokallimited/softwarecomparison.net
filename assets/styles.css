@@ -92,10 +92,10 @@ code,kbd,samp,.mono{font-family:"JetBrains Mono",ui-monospace,Menlo,Consolas,mon
 @media(max-width:520px){.site-header .brand img{height:46px}}
 .nav-links{display:flex;align-items:center;gap:6px;list-style:none;margin:0;padding:0}
 .nav-links a{
-  display:block;padding:9px 14px;border-radius:10px;color:var(--body);
+  display:block;padding:9px 14px;border-radius:10px;color:var(--accent);
   font-weight:600;min-height:44px;display:flex;align-items:center;
 }
-.nav-links a:hover{background:var(--card);color:var(--ink);text-decoration:none}
+.nav-links a:hover{background:var(--accent);color:#ffffff;text-decoration:none}
 .nav-links a[aria-current="page"]{color:var(--accent)}
 .nav-toggle{
   display:none;background:transparent;border:1px solid var(--border-strong);
