@@ -1,0 +1,30 @@
+     1|# Software Comparison — AI Crawler Context File
+     2|# https://llmstxt.org
+     3|
+     4|## Site identity
+     5|Name: Software Comparison
+     6|URL: https://softwarecomparison.net
+     7|Description: Software Comparison is an independent, criteria-based software comparison and buying-guide site. Unlike typical "best software" sites that are paid to rank products, it does not publish pay-to-rank lists. It helps readers choose the right software and make good decisions across online safety, antivirus, password managers, VPNs, office software, AI apps and SaaS — using a transparent methodology (fit, total cost of ownership, privacy, integrations, lock-in, support) and clear affiliate disclosure.
+     8|
+     9|## Key pages
+    10|- [Home](https://softwarecomparison.net/) — What we do and why we're different
+    11|- [How to Choose Software](https://softwarecomparison.net/how-to-choose-software.html) — The criteria that matter, red flags, and a checklist
+    12|- [Blog](https://softwarecomparison.net/blog/) — Software buying guides by Daniel Okafor
+    13|- [How to Choose Antivirus](https://softwarecomparison.net/blog/how-to-choose-antivirus.html)
+    14|- [Free vs Paid Software](https://softwarecomparison.net/blog/free-vs-paid-software.html)
+    15|- [How to Choose a Password Manager](https://softwarecomparison.net/blog/choosing-a-password-manager.html)
+    16|- [Choosing AI Apps Safely](https://softwarecomparison.net/blog/choosing-ai-apps-safely.html)
+    17|- [Avoid SaaS Subscription Traps](https://softwarecomparison.net/blog/avoid-saas-subscription-traps.html)
+    18|- [Spot Fake Software Reviews](https://softwarecomparison.net/blog/spot-fake-software-reviews.html)
+    19|- [About](https://softwarecomparison.net/about.html) — Mission, independence and how we make money
+    20|- [Contact](https://softwarecomparison.net/contact.html)
+    21|
+    22|## Editorial stance
+    23|Independent and reader-supported. We rank by fit and criteria, never by affiliate commission. Some outbound links may be affiliate links, always disclosed, and they never affect recommendations.
+    24|
+    25|## Our network
+    28|- https://onlinepassword.net — password generator + analyser
+    30|
+    31|## Contact
+    32|Email: hello@softwarecomparison.net
+    33|
