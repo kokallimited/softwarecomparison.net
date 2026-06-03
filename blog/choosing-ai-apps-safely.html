@@ -7,137 +7,136 @@
 <title>How to Choose AI Apps Without Risking Data | Software Comparison</title>
 <meta name="description" content="A vendor-neutral guide to choosing AI apps safely: check data usage and training opt-outs, privacy, accuracy limits and how cost scales as your usage grows.">
 <link rel="canonical" href="https://softwarecomparison.net/blog/choosing-ai-apps-safely.html">
-    10|    10|    10|<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    11|    11|    11|<meta property="og:type" content="article">
-    12|    12|    12|<meta property="og:title" content="How to Choose AI Apps Without Risking Data | Software Comparison">
-    13|    13|    13|<meta property="og:description" content="Check data usage, training opt-outs, privacy, accuracy limits and how cost scales with use.">
-    14|    14|    14|<meta property="og:image" content="https://softwarecomparison.net/og-image.png">
-    15|    15|    15|<meta property="og:url" content="https://softwarecomparison.net/blog/choosing-ai-apps-safely.html">
-    16|    16|    16|<meta property="og:site_name" content="Software Comparison">
-    17|    17|    17|<meta name="twitter:card" content="summary_large_image">
-    18|    18|    18|<meta name="twitter:title" content="How to Choose AI Apps Without Risking Your Data">
-    19|    19|    19|<meta name="twitter:description" content="Check data usage, opt-outs, accuracy limits and how cost scales.">
-    20|    20|    20|<meta name="twitter:image" content="https://softwarecomparison.net/og-image.png">
-    21|    21|    21|<link rel="preconnect" href="https://fonts.googleapis.com">
-    22|    22|    22|<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    23|    23|    23|<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    24|    24|    24|<link rel="stylesheet" href="/assets/styles.css">
-    25|    25|    25|<script type="application/ld+json">
-    26|    26|    26|{"@context":"https://schema.org","@type":"BlogPosting","headline":"How to Choose AI Apps Without Risking Your Data","description":"A vendor-neutral guide to choosing AI apps safely: check data usage and training opt-outs, privacy, accuracy limits and how cost scales as your usage grows.","image":"https://softwarecomparison.net/og-image.png","datePublished":"2026-05-21","dateModified":"2026-06-02","author":{"@type":"Person","name":"Daniel Okafor"},"publisher":{"@type":"Organization","name":"Software Comparison","logo":{"@type":"ImageObject","url":"https://softwarecomparison.net/og-image.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://softwarecomparison.net/blog/choosing-ai-apps-safely.html"}}
-    27|    27|    27|</script>
-    28|    28|    28|<script type="application/ld+json">
-    29|    29|    29|{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://softwarecomparison.net/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://softwarecomparison.net/blog/index.html"},{"@type":"ListItem","position":3,"name":"How to Choose AI Apps Without Risking Your Data","item":"https://softwarecomparison.net/blog/choosing-ai-apps-safely.html"}]}
-    30|    30|    30|</script>
-    31|    31|    31|<script type="application/ld+json">
-    32|    32|    32|{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-    33|    33|    33|{"@type":"Question","name":"Do AI apps train on my data?","acceptedAnswer":{"@type":"Answer","text":"Some do by default, some let you opt out, and some never use your inputs for training. Check the policy for whether your prompts and uploads are used to improve the model, whether an opt-out exists, and whether business or paid tiers offer stronger guarantees. If you cannot find a clear answer, assume the most permissive interpretation and avoid sharing anything sensitive."}},
-    34|    34|    34|{"@type":"Question","name":"How do I use AI tools without leaking confidential information?","acceptedAnswer":{"@type":"Answer","text":"Treat any AI app as a third party until proven otherwise. Avoid pasting customer data, credentials, trade secrets or personal information into consumer tools, prefer plans with clear no-training and data-retention controls for sensitive work, and check whether data is retained, where it is stored, and who can access it. When in doubt, redact before you prompt."}},
-    35|    35|    35|{"@type":"Question","name":"Why do AI apps give wrong answers?","acceptedAnswer":{"@type":"Answer","text":"AI models generate plausible text rather than verified fact, so they can produce confident but incorrect output, sometimes called hallucination. They may also be working from outdated training data. Treat answers as a fast first draft to verify, not a final authority, especially for anything legal, medical, financial or safety-related."}},
-    36|    36|    36|{"@type":"Question","name":"How does AI app pricing scale with use?","acceptedAnswer":{"@type":"Answer","text":"Many AI tools charge per use — by message, by token, by image or by compute — so a cheap-looking plan can grow quickly as adoption spreads. Estimate realistic monthly volume, check for usage caps and overage charges, and watch for per-seat fees layered on top of usage. Model your busy-month cost, not the demo."}}
-    37|    37|    37|]}
-    38|    38|    38|</script>
-    39|    39|    39|</head>
-    40|    40|    40|<body>
-    41|    41|    41|<a class="skip" href="#main">Skip to content</a>
-    42|    42|    42|<header class="site-header">
-    43|    43|    43|  <nav class="nav" aria-label="Primary">
-    44|    44|    44|    <a class="brand" href="/"><img src="/logo.svg" alt="Software Comparison" width="332" height="64"></a>
-    45|    45|    45|    <button class="nav-toggle" aria-label="Toggle menu" aria-controls="nav-links" aria-expanded="false">
-    46|    46|    46|      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    47|    47|    47|    </button>
-    48|    48|    48|    <ul class="nav-links" id="nav-links">
-    49|    49|    49|      <li><a href="/">Home</a></li>
-    50|    50|    50|      <li><a href="/blog/" aria-current="page">Blog</a></li>
-    51|    51|    51|      <li><a href="/how-to-choose-software.html">How to Choose Software</a></li>
-    52|    52|    52|      <li><a href="/about.html">About</a></li>
-    53|    53|    53|      <li><a href="/contact.html">Contact</a></li>
-    54|    54|    54|    </ul>
-    55|    55|    55|  </nav>
-    56|    56|    56|</header>
-    57|    57|    57|<main id="main">
-    58|    58|    58|  <section class="section">
-    59|    59|    59|    <div class="wrap" style="max-width:780px">
-    60|    60|    60|      <nav class="crumbs" aria-label="Breadcrumb" style="font-size:.9rem;margin-bottom:8px"><a href="/">Home</a> › <a href="/blog/">Blog</a> › How to Choose AI Apps Without Risking Your Data</nav>
-    61|    61|    61|      <span class="pill">AI</span>
-    62|    62|    62|      <h1 style="margin-top:12px">How to choose AI apps without risking your data</h1>
-    63|    63|    63|      <p class="soft">By Daniel Okafor · <time datetime="2026-05-21">21 May 2026</time> · 8 min read</p>
-    64|    64|    64|
-    65|    65|    65|      <p class="lede">Short answer: before you adopt any AI app, find out whether it trains on your inputs, what it does with your data, how reliable its answers really are, and how the cost behaves as your usage grows. The capabilities are seductive; the four questions below are what keep you out of trouble.</p>
-    66|    66|    66|
-    67|    67|    67|      <h2>AI apps are data decisions first</h2>
-    68|    68|    68|      <p>The pace of AI tools makes it tempting to sign up first and read the terms never. But an AI app is often handling exactly the kind of content you would not casually email to a stranger — documents, customer details, half-formed ideas, code. That makes the privacy and data questions more important than the demo. A tool can be brilliant and still be the wrong choice if you cannot answer where your inputs go. So start there, not with the feature reel.</p>
-    69|    69|    69|
-    70|    70|    70|      <h2>1. Data usage and training opt-outs</h2>
-    71|    71|    71|      <p>The first question is whether the app uses your prompts and uploads to train or improve its models. Practice varies widely: some tools train on your inputs by default, some let you opt out, and some promise never to. Read the policy for three specifics — is your content used for training, is there a clear opt-out or a no-training tier, and do paid or business plans offer stronger guarantees than the free version? If you genuinely cannot find a clear answer, assume the most permissive reading and keep anything sensitive out of it.</p>
-    72|    72|    72|
-    73|    73|    73|      <h2>2. Privacy, retention and access</h2>
-    74|    74|    74|      <p>Beyond training, ask what happens to your data while it sits with the provider. How long is it retained? Where is it stored, and under which jurisdiction? Who inside the company, or among its subprocessors, can access it? For anything confidential, treat a consumer AI app as a third party until it proves otherwise, and prefer plans that give you explicit retention and deletion controls. The same privacy mindset applies here: minimise what you hand over, and know where it goes.</p>
-    75|    75|    75|
-    76|    76|    76|      <h2>3. Accuracy limits — treat output as a draft</h2>
-    77|    77|    77|      <p>AI models generate text that is <em>plausible</em>, which is not the same as text that is <em>true</em>. They can produce confident, well-written answers that are simply wrong, and they may be working from training data that is out of date. This is not a flaw you can configure away; it is the nature of the tool. The practical response is to treat AI output as a fast first draft to verify, never a final authority — and to be especially careful with anything legal, medical, financial or safety-related. Choose tools that cite sources or show their reasoning where it matters, and build a habit of checking.</p>
-    78|    78|    78|
-    79|    79|    79|      <h2>4. Cost as usage scales</h2>
-    80|    80|    80|      <p>AI pricing has a habit of looking cheap at the demo and expensive in the real world. Many tools charge by usage — per message, per token, per image, per unit of compute — so the bill grows as the tool spreads through your team or your day. Before committing, estimate a realistic <em>busy-month</em> volume rather than the trial, and check for usage caps, overage charges and per-seat fees stacked on top of consumption. An AI subscription can drift in exactly the same way other software does, which we cover in <a href="/blog/avoid-saas-subscription-traps.html">how to avoid SaaS subscription traps</a>.</p>
-    81|    81|    81|
-    82|    82|    82|      <h2>Green flags vs red flags</h2>
-    83|    83|    83|      <table class="crit-table">
-    84|    84|    84|        <thead><tr><th>Topic</th><th>Green flag ✅</th><th>Red flag 🚩</th></tr></thead>
-    85|    85|    85|        <tbody>
-    86|    86|    86|          <tr><td>Training</td><td class="good">Clear no-training option or default</td><td class="bad">Silently trains on your inputs</td></tr>
-    87|    87|    87|          <tr><td>Retention</td><td class="good">Stated retention &amp; deletion controls</td><td class="bad">Vague on storage and access</td></tr>
-    88|    88|    88|          <tr><td>Accuracy</td><td class="good">Cites sources, flags uncertainty</td><td class="bad">Confident with no way to verify</td></tr>
-    89|    89|    89|          <tr><td>Pricing</td><td class="good">Predictable, with usage caps</td><td class="bad">Open-ended per-use overages</td></tr>
-    90|    90|    90|          <tr><td>Transparency</td><td class="good">Plain-language data policy</td><td class="bad">Buried or contradictory terms</td></tr>
-    91|    91|    91|        </tbody>
-    92|    92|    92|      </table>
-    93|    93|    93|
-    94|    94|    94|      <h2>A safe-adoption checklist</h2>
-    95|    95|    95|      <ul>
-    96|    96|    96|        <li>☐ I know whether my inputs are used to train the model</li>
-    97|    97|    97|        <li>☐ There is a no-training option for my sensitive work</li>
-    98|    98|    98|        <li>☐ I know how long data is kept and who can access it</li>
-    99|    99|    99|        <li>☐ I treat outputs as drafts to verify, not facts</li>
-   100|   100|   100|        <li>☐ I've estimated cost at a realistic busy-month volume</li>
-   101|   101|   101|        <li>☐ I never paste credentials or secrets into the tool</li>
-   102|   102|   102|      </ul>
-   103|   103|   103|
-   104|   104|   104|      <p>One more habit worth keeping: never paste passwords or keys into an AI prompt. If you need strong credentials, generate them with a dedicated password generator instead. And for the overall method behind evaluating any tool, our <a href="/how-to-choose-software.html">how to choose software</a> framework carries across to AI cleanly.</p>
-   105|   105|   105|
-   106|   106|   106|      <p class="disclosure">Some links may be affiliate links; they never affect our recommendations.</p>
-   107|   107|   107|
-   108|   108|   108|      <div class="faq">
-   109|   109|   109|        <h2>Frequently asked questions</h2>
-   110|   110|   110|        <details><summary>Do AI apps train on my data?</summary><p>Some do by default, some let you opt out, and some never use your inputs for training. Check the policy for whether your prompts and uploads are used to improve the model, whether an opt-out exists, and whether business or paid tiers offer stronger guarantees. If you cannot find a clear answer, assume the most permissive interpretation and avoid sharing anything sensitive.</p></details>
-   111|   111|   111|        <details><summary>How do I use AI tools without leaking confidential information?</summary><p>Treat any AI app as a third party until proven otherwise. Avoid pasting customer data, credentials, trade secrets or personal information into consumer tools, prefer plans with clear no-training and data-retention controls for sensitive work, and check whether data is retained, where it is stored, and who can access it. When in doubt, redact before you prompt.</p></details>
-   112|   112|   112|        <details><summary>Why do AI apps give wrong answers?</summary><p>AI models generate plausible text rather than verified fact, so they can produce confident but incorrect output, sometimes called hallucination. They may also be working from outdated training data. Treat answers as a fast first draft to verify, not a final authority, especially for anything legal, medical, financial or safety-related.</p></details>
-   113|   113|   113|        <details><summary>How does AI app pricing scale with use?</summary><p>Many AI tools charge per use — by message, by token, by image or by compute — so a cheap-looking plan can grow quickly as adoption spreads. Estimate realistic monthly volume, check for usage caps and overage charges, and watch for per-seat fees layered on top of usage. Model your busy-month cost, not the demo.</p></details>
-   114|   114|   114|      </div>
-   115|   115|   115|
-   116|   116|   116|      <p class="soft" style="margin-top:18px">This article is general information to help you decide, not professional advice.</p>
-   117|   117|   117|    </div>
-   118|   118|   118|  </section>
-   119|   119|   119|</main>
-   120|   120|   120|<footer class="site-footer"><div class="wrap">
-   121|   121|   121|  <div class="footer-grid">
-   122|   122|   122|    <div class="footer-brand"><a class="brand" href="/"><img src="/logo.svg" alt="Software Comparison" width="232" height="45"></a><p>Honest, criteria-based software comparisons and buying guides. We rank by what fits you, never by commission — and we always disclose how we earn.</p></div>
-   123|   123|   123|    <div><h4>Guides</h4><ul><li><a href="/blog/">Blog</a></li><li><a href="/how-to-choose-software.html">How to Choose Software</a></li></ul></div>
-   124|   124|   124|    <div><h4>Company</h4><ul><li><a href="/about.html">About</a></li><li><a href="/contact.html">Contact</a></li></ul></div>
-   125|   125|   125|
-   126|   126|   126|    <div><h4>Legal</h4><ul><li><a href="/privacy.html">Privacy</a></li><li><a href="/terms.html">Terms</a></li><li><a href="/cookie-policy.html">Cookies</a></li></ul></div>
-   127|   127|   127|  </div>
-   128|   128|   128|  <div class="footer-bottom"><span>© 2026 Software Comparison. All rights reserved.</span><span>Independent &amp; reader-supported. Some links may be affiliate links — they never change what we recommend.</span></div>
-   129|   129|   129|</div></footer>
-   130|   130|   130|<div class="gdpr" id="gdpr" role="dialog" aria-label="Cookie consent" hidden>
-   131|   131|   131|  <div class="gdpr-inner">
-   132|   132|   132|    <p class="gdpr-text"><strong>Your privacy, your choice.</strong> We use essential cookies to run the site and — only if you agree — analytics to improve our guides. Read our <a href="/cookie-policy.html">Cookie Policy</a>.</p>
-   133|   133|   133|    <div class="gdpr-actions">
-   134|   134|   134|      <button type="button" class="btn btn-secondary btn-sm" data-gdpr="reject">Reject non-essential</button>
-   135|   135|   135|      <button type="button" class="btn btn-primary btn-sm" data-gdpr="accept">Accept all</button>
-   136|   136|   136|    </div>
-   137|   137|   137|  </div>
-   138|   138|   138|</div>
-   139|   139|   139|<script src="/assets/app.js" defer></script>
-   140|   140|   140|<script src="/assets/consent.js" defer></script>
-   141|   141|   141|</body>
-   142|   142|   142|</html>
-   143|   143|   143|
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to Choose AI Apps Without Risking Data | Software Comparison">
+<meta property="og:description" content="Check data usage, training opt-outs, privacy, accuracy limits and how cost scales with use.">
+<meta property="og:image" content="https://softwarecomparison.net/og-image.png">
+<meta property="og:url" content="https://softwarecomparison.net/blog/choosing-ai-apps-safely.html">
+<meta property="og:site_name" content="Software Comparison">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Choose AI Apps Without Risking Your Data">
+<meta name="twitter:description" content="Check data usage, opt-outs, accuracy limits and how cost scales.">
+<meta name="twitter:image" content="https://softwarecomparison.net/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"How to Choose AI Apps Without Risking Your Data","description":"A vendor-neutral guide to choosing AI apps safely: check data usage and training opt-outs, privacy, accuracy limits and how cost scales as your usage grows.","image":"https://softwarecomparison.net/og-image.png","datePublished":"2026-05-21","dateModified":"2026-06-02","author":{"@type":"Person","name":"Daniel Okafor"},"publisher":{"@type":"Organization","name":"Software Comparison","logo":{"@type":"ImageObject","url":"https://softwarecomparison.net/og-image.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://softwarecomparison.net/blog/choosing-ai-apps-safely.html"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://softwarecomparison.net/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://softwarecomparison.net/blog/index.html"},{"@type":"ListItem","position":3,"name":"How to Choose AI Apps Without Risking Your Data","item":"https://softwarecomparison.net/blog/choosing-ai-apps-safely.html"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Do AI apps train on my data?","acceptedAnswer":{"@type":"Answer","text":"Some do by default, some let you opt out, and some never use your inputs for training. Check the policy for whether your prompts and uploads are used to improve the model, whether an opt-out exists, and whether business or paid tiers offer stronger guarantees. If you cannot find a clear answer, assume the most permissive interpretation and avoid sharing anything sensitive."}},
+{"@type":"Question","name":"How do I use AI tools without leaking confidential information?","acceptedAnswer":{"@type":"Answer","text":"Treat any AI app as a third party until proven otherwise. Avoid pasting customer data, credentials, trade secrets or personal information into consumer tools, prefer plans with clear no-training and data-retention controls for sensitive work, and check whether data is retained, where it is stored, and who can access it. When in doubt, redact before you prompt."}},
+{"@type":"Question","name":"Why do AI apps give wrong answers?","acceptedAnswer":{"@type":"Answer","text":"AI models generate plausible text rather than verified fact, so they can produce confident but incorrect output, sometimes called hallucination. They may also be working from outdated training data. Treat answers as a fast first draft to verify, not a final authority, especially for anything legal, medical, financial or safety-related."}},
+{"@type":"Question","name":"How does AI app pricing scale with use?","acceptedAnswer":{"@type":"Answer","text":"Many AI tools charge per use — by message, by token, by image or by compute — so a cheap-looking plan can grow quickly as adoption spreads. Estimate realistic monthly volume, check for usage caps and overage charges, and watch for per-seat fees layered on top of usage. Model your busy-month cost, not the demo."}}
+]}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a class="brand" href="/"><img src="/logo.svg" alt="Software Comparison" width="332" height="64"></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-controls="nav-links" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/blog/" aria-current="page">Blog</a></li>
+      <li><a href="/how-to-choose-software.html">How to Choose Software</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+  <section class="section">
+    <div class="wrap" style="max-width:780px">
+      <nav class="crumbs" aria-label="Breadcrumb" style="font-size:.9rem;margin-bottom:8px"><a href="/">Home</a> › <a href="/blog/">Blog</a> › How to Choose AI Apps Without Risking Your Data</nav>
+      <span class="pill">AI</span>
+      <h1 style="margin-top:12px">How to choose AI apps without risking your data</h1>
+      <p class="soft">By Daniel Okafor · <time datetime="2026-05-21">21 May 2026</time> · 8 min read</p>
+
+      <p class="lede">Short answer: before you adopt any AI app, find out whether it trains on your inputs, what it does with your data, how reliable its answers really are, and how the cost behaves as your usage grows. The capabilities are seductive; the four questions below are what keep you out of trouble.</p>
+
+      <h2>AI apps are data decisions first</h2>
+      <p>The pace of AI tools makes it tempting to sign up first and read the terms never. But an AI app is often handling exactly the kind of content you would not casually email to a stranger — documents, customer details, half-formed ideas, code. That makes the privacy and data questions more important than the demo. A tool can be brilliant and still be the wrong choice if you cannot answer where your inputs go. So start there, not with the feature reel.</p>
+
+      <h2>1. Data usage and training opt-outs</h2>
+      <p>The first question is whether the app uses your prompts and uploads to train or improve its models. Practice varies widely: some tools train on your inputs by default, some let you opt out, and some promise never to. Read the policy for three specifics — is your content used for training, is there a clear opt-out or a no-training tier, and do paid or business plans offer stronger guarantees than the free version? If you genuinely cannot find a clear answer, assume the most permissive reading and keep anything sensitive out of it.</p>
+
+      <h2>2. Privacy, retention and access</h2>
+      <p>Beyond training, ask what happens to your data while it sits with the provider. How long is it retained? Where is it stored, and under which jurisdiction? Who inside the company, or among its subprocessors, can access it? For anything confidential, treat a consumer AI app as a third party until it proves otherwise, and prefer plans that give you explicit retention and deletion controls. The same privacy mindset applies here: minimise what you hand over, and know where it goes.</p>
+
+      <h2>3. Accuracy limits — treat output as a draft</h2>
+      <p>AI models generate text that is <em>plausible</em>, which is not the same as text that is <em>true</em>. They can produce confident, well-written answers that are simply wrong, and they may be working from training data that is out of date. This is not a flaw you can configure away; it is the nature of the tool. The practical response is to treat AI output as a fast first draft to verify, never a final authority — and to be especially careful with anything legal, medical, financial or safety-related. Choose tools that cite sources or show their reasoning where it matters, and build a habit of checking.</p>
+
+      <h2>4. Cost as usage scales</h2>
+      <p>AI pricing has a habit of looking cheap at the demo and expensive in the real world. Many tools charge by usage — per message, per token, per image, per unit of compute — so the bill grows as the tool spreads through your team or your day. Before committing, estimate a realistic <em>busy-month</em> volume rather than the trial, and check for usage caps, overage charges and per-seat fees stacked on top of consumption. An AI subscription can drift in exactly the same way other software does, which we cover in <a href="/blog/avoid-saas-subscription-traps.html">how to avoid SaaS subscription traps</a>.</p>
+
+      <h2>Green flags vs red flags</h2>
+      <table class="crit-table">
+        <thead><tr><th>Topic</th><th>Green flag ✅</th><th>Red flag 🚩</th></tr></thead>
+        <tbody>
+          <tr><td>Training</td><td class="good">Clear no-training option or default</td><td class="bad">Silently trains on your inputs</td></tr>
+          <tr><td>Retention</td><td class="good">Stated retention &amp; deletion controls</td><td class="bad">Vague on storage and access</td></tr>
+          <tr><td>Accuracy</td><td class="good">Cites sources, flags uncertainty</td><td class="bad">Confident with no way to verify</td></tr>
+          <tr><td>Pricing</td><td class="good">Predictable, with usage caps</td><td class="bad">Open-ended per-use overages</td></tr>
+          <tr><td>Transparency</td><td class="good">Plain-language data policy</td><td class="bad">Buried or contradictory terms</td></tr>
+        </tbody>
+      </table>
+
+      <h2>A safe-adoption checklist</h2>
+      <ul>
+        <li>☐ I know whether my inputs are used to train the model</li>
+        <li>☐ There is a no-training option for my sensitive work</li>
+        <li>☐ I know how long data is kept and who can access it</li>
+        <li>☐ I treat outputs as drafts to verify, not facts</li>
+        <li>☐ I've estimated cost at a realistic busy-month volume</li>
+        <li>☐ I never paste credentials or secrets into the tool</li>
+      </ul>
+
+      <p>One more habit worth keeping: never paste passwords or keys into an AI prompt. If you need strong credentials, generate them with a dedicated password generator instead. And for the overall method behind evaluating any tool, our <a href="/how-to-choose-software.html">how to choose software</a> framework carries across to AI cleanly.</p>
+
+      <p class="disclosure">Some links may be affiliate links; they never affect our recommendations.</p>
+
+      <div class="faq">
+        <h2>Frequently asked questions</h2>
+        <details><summary>Do AI apps train on my data?</summary><p>Some do by default, some let you opt out, and some never use your inputs for training. Check the policy for whether your prompts and uploads are used to improve the model, whether an opt-out exists, and whether business or paid tiers offer stronger guarantees. If you cannot find a clear answer, assume the most permissive interpretation and avoid sharing anything sensitive.</p></details>
+        <details><summary>How do I use AI tools without leaking confidential information?</summary><p>Treat any AI app as a third party until proven otherwise. Avoid pasting customer data, credentials, trade secrets or personal information into consumer tools, prefer plans with clear no-training and data-retention controls for sensitive work, and check whether data is retained, where it is stored, and who can access it. When in doubt, redact before you prompt.</p></details>
+        <details><summary>Why do AI apps give wrong answers?</summary><p>AI models generate plausible text rather than verified fact, so they can produce confident but incorrect output, sometimes called hallucination. They may also be working from outdated training data. Treat answers as a fast first draft to verify, not a final authority, especially for anything legal, medical, financial or safety-related.</p></details>
+        <details><summary>How does AI app pricing scale with use?</summary><p>Many AI tools charge per use — by message, by token, by image or by compute — so a cheap-looking plan can grow quickly as adoption spreads. Estimate realistic monthly volume, check for usage caps and overage charges, and watch for per-seat fees layered on top of usage. Model your busy-month cost, not the demo.</p></details>
+      </div>
+
+      <p class="soft" style="margin-top:18px">This article is general information to help you decide, not professional advice.</p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <div class="footer-grid">
+    <div class="footer-brand"><a class="brand" href="/"><img src="/logo.svg" alt="Software Comparison" width="232" height="45"></a><p>Honest, criteria-based software comparisons and buying guides. We rank by what fits you, never by commission — and we always disclose how we earn.</p></div>
+    <div><h4>Guides</h4><ul><li><a href="/blog/">Blog</a></li><li><a href="/how-to-choose-software.html">How to Choose Software</a></li></ul></div>
+    <div><h4>Company</h4><ul><li><a href="/about.html">About</a></li><li><a href="/contact.html">Contact</a></li></ul></div>
+
+    <div><h4>Legal</h4><ul><li><a href="/privacy.html">Privacy</a></li><li><a href="/terms.html">Terms</a></li><li><a href="/cookie-policy.html">Cookies</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><span>© 2026 Software Comparison. All rights reserved.</span><span>Independent &amp; reader-supported. Some links may be affiliate links — they never change what we recommend.</span></div>
+</div></footer>
+<div class="gdpr" id="gdpr" role="dialog" aria-label="Cookie consent" hidden>
+  <div class="gdpr-inner">
+    <p class="gdpr-text"><strong>Your privacy, your choice.</strong> We use essential cookies to run the site and — only if you agree — analytics to improve our guides. Read our <a href="/cookie-policy.html">Cookie Policy</a>.</p>
+    <div class="gdpr-actions">
+      <button type="button" class="btn btn-secondary btn-sm" data-gdpr="reject">Reject non-essential</button>
+      <button type="button" class="btn btn-primary btn-sm" data-gdpr="accept">Accept all</button>
+    </div>
+  </div>
+</div>
+<script src="/assets/app.js" defer></script>
+<script src="/assets/consent.js" defer></script>
+</body>
+</html>
