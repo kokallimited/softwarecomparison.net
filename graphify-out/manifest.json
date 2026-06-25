@@ -1,0 +1,127 @@
+{
+  "assets/app.js": {
+    "mtime": 1780521355.5702007,
+    "ast_hash": "f0115d6650aa384d4d3f2be69da77d27",
+    "semantic_hash": "f0115d6650aa384d4d3f2be69da77d27"
+  },
+  "assets/consent.js": {
+    "mtime": 1780521355.5702007,
+    "ast_hash": "ee1bb248f03947dda9b31760b763874b",
+    "semantic_hash": "ee1bb248f03947dda9b31760b763874b"
+  },
+  "404.html": {
+    "mtime": 1780522849.7021534,
+    "ast_hash": "1a2e1b6482eea855c40e08e16453f7e2",
+    "semantic_hash": "1a2e1b6482eea855c40e08e16453f7e2"
+  },
+  "about.html": {
+    "mtime": 1780522849.4271505,
+    "ast_hash": "af2c0629243b835075ff090619daf735",
+    "semantic_hash": "af2c0629243b835075ff090619daf735"
+  },
+  "blog/avoid-saas-subscription-traps.html": {
+    "mtime": 1780522849.5251515,
+    "ast_hash": "52d689109ff395e3ce842932289e2cb1",
+    "semantic_hash": "52d689109ff395e3ce842932289e2cb1"
+  },
+  "blog/choosing-a-password-manager.html": {
+    "mtime": 1780522849.663153,
+    "ast_hash": "c5e18d415f769828aa2eded909dc01bb",
+    "semantic_hash": "c5e18d415f769828aa2eded909dc01bb"
+  },
+  "blog/choosing-ai-apps-safely.html": {
+    "mtime": 1780522849.460151,
+    "ast_hash": "f73348f72103d90860923ecb2fb199b9",
+    "semantic_hash": "f73348f72103d90860923ecb2fb199b9"
+  },
+  "blog/crm-software-small-business.html": {
+    "mtime": 1780527414.470685,
+    "ast_hash": "e11069ab1f76713af35702f5cd0f893b",
+    "semantic_hash": "e11069ab1f76713af35702f5cd0f893b"
+  },
+  "blog/free-vs-paid-software.html": {
+    "mtime": 1780522849.563152,
+    "ast_hash": "9f7bdb5bbacd121a365a796d6e2e2b15",
+    "semantic_hash": "9f7bdb5bbacd121a365a796d6e2e2b15"
+  },
+  "blog/how-to-choose-antivirus.html": {
+    "mtime": 1780522849.4931512,
+    "ast_hash": "e3cbd296df13985d78b5970652420e93",
+    "semantic_hash": "e3cbd296df13985d78b5970652420e93"
+  },
+  "blog/index.html": {
+    "mtime": 1780527414.470685,
+    "ast_hash": "462c4df379c90c42c93e8c7e99e6a84f",
+    "semantic_hash": "462c4df379c90c42c93e8c7e99e6a84f"
+  },
+  "blog/note-taking-apps-comparison.html": {
+    "mtime": 1780527414.470685,
+    "ast_hash": "efefb3512e95fb519e2397cdfd217ddd",
+    "semantic_hash": "efefb3512e95fb519e2397cdfd217ddd"
+  },
+  "blog/project-management-software-comparison.html": {
+    "mtime": 1780527414.469685,
+    "ast_hash": "e72143b9cbff92c3560e9fd0acb0d5ed",
+    "semantic_hash": "e72143b9cbff92c3560e9fd0acb0d5ed"
+  },
+  "blog/spot-fake-software-reviews.html": {
+    "mtime": 1780522849.6301527,
+    "ast_hash": "66a8709c8d502dc9dff6c3448ed01eea",
+    "semantic_hash": "66a8709c8d502dc9dff6c3448ed01eea"
+  },
+  "contact.html": {
+    "mtime": 1780522849.8451548,
+    "ast_hash": "964d092e68361073da0583517125a687",
+    "semantic_hash": "964d092e68361073da0583517125a687"
+  },
+  "cookie-policy.html": {
+    "mtime": 1780522849.7401538,
+    "ast_hash": "6c41cf104c334c1e0fca0aea16f096fd",
+    "semantic_hash": "6c41cf104c334c1e0fca0aea16f096fd"
+  },
+  "how-to-choose-software.html": {
+    "mtime": 1780522849.3941503,
+    "ast_hash": "ef0fe6652914ecadc1cd9b79f36ec942",
+    "semantic_hash": "ef0fe6652914ecadc1cd9b79f36ec942"
+  },
+  "index.html": {
+    "mtime": 1780522849.773154,
+    "ast_hash": "17e77296ceb7156b4af3fa043bd47521",
+    "semantic_hash": "17e77296ceb7156b4af3fa043bd47521"
+  },
+  "llms.txt": {
+    "mtime": 1780521355.5712006,
+    "ast_hash": "c2912640cc28f0a626368e73c7b70207",
+    "semantic_hash": "c2912640cc28f0a626368e73c7b70207"
+  },
+  "privacy.html": {
+    "mtime": 1780522849.8061545,
+    "ast_hash": "b1732f40b3bc697dbf64b8e83cd12a32",
+    "semantic_hash": "b1732f40b3bc697dbf64b8e83cd12a32"
+  },
+  "robots.txt": {
+    "mtime": 1781739126.0823948,
+    "ast_hash": "22f3b03367e71a0ade45a36732e5dbe5",
+    "semantic_hash": ""
+  },
+  "terms.html": {
+    "mtime": 1780522849.36215,
+    "ast_hash": "5fde64a112943e525743f66860e82305",
+    "semantic_hash": "5fde64a112943e525743f66860e82305"
+  },
+  "favicon.svg": {
+    "mtime": 1780521355.5702007,
+    "ast_hash": "289c31c856e8287ac3bbbd2a31e1954a",
+    "semantic_hash": "289c31c856e8287ac3bbbd2a31e1954a"
+  },
+  "logo.svg": {
+    "mtime": 1780521355.5712006,
+    "ast_hash": "e861b6ffea9404e0f39395f6092b80bf",
+    "semantic_hash": "e861b6ffea9404e0f39395f6092b80bf"
+  },
+  "og-image.png": {
+    "mtime": 1780521355.5712006,
+    "ast_hash": "214446c99f7c46c9f40cbcf1eb157bd0",
+    "semantic_hash": "214446c99f7c46c9f40cbcf1eb157bd0"
+  }
+}

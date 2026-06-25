@@ -1,0 +1,214 @@
+{
+  "communities": {
+    "0": [
+      "404_error_page",
+      "blog_crm_software_small_business_crm_guide",
+      "blog_index_blog_index_page",
+      "blog_note_taking_apps_comparison_note_taking_guide",
+      "blog_project_management_software_comparison_project_management_guide",
+      "concept_criteria_based_methodology",
+      "concept_data_privacy_security",
+      "concept_vendor_lock_in",
+      "contact_contact_page",
+      "how_to_choose_software_framework_page"
+    ],
+    "1": [
+      "assets_app",
+      "assets_app_analyse",
+      "assets_app_copypassword",
+      "assets_app_fmttime",
+      "assets_app_hassequence",
+      "assets_app_isrepeated",
+      "assets_app_poolsize",
+      "assets_app_render",
+      "assets_app_setbar"
+    ],
+    "2": [
+      "assets_app_js_app_script",
+      "assets_consent_js_consent_script",
+      "assets_styles_css_stylesheet",
+      "fonts_google_fonts_loader",
+      "index_homepage",
+      "robots_txt_robots_txt_file"
+    ],
+    "3": [
+      "blog_avoid_saas_subscription_traps_saas_guide",
+      "blog_free_vs_paid_software_free_vs_paid_guide",
+      "blog_spot_fake_software_reviews_fake_reviews_guide",
+      "concept_fake_reviews_detection",
+      "concept_saas_subscription_traps",
+      "concept_total_cost_ownership"
+    ],
+    "4": [
+      "assets_app_buildpool",
+      "assets_app_clearstrength",
+      "assets_app_generate",
+      "assets_app_randomint",
+      "assets_app_setstrength"
+    ],
+    "5": [
+      "blog_choosing_a_password_manager_password_manager_guide",
+      "blog_how_to_choose_antivirus_antivirus_guide",
+      "concept_password_manager_security",
+      "llms_txt_llms_txt_file",
+      "network_onlinepassword_net"
+    ],
+    "6": [
+      "about_about_page",
+      "concept_affiliate_disclosure",
+      "terms_terms_conditions_page"
+    ],
+    "7": [
+      "assets_app_applypreset",
+      "assets_app_synclength"
+    ],
+    "8": [
+      "assets_consent",
+      "assets_consent_decide"
+    ],
+    "9": [
+      "blog_choosing_ai_apps_safely_ai_apps_guide",
+      "concept_ai_data_risk"
+    ],
+    "10": [
+      "concept_software_comparison_brand",
+      "og_image_png_open_graph_image"
+    ],
+    "11": [
+      "cookie_policy_cookie_policy_page",
+      "privacy_privacy_policy_page"
+    ],
+    "12": [
+      "favicon_svg_favicon",
+      "logo_svg_logo"
+    ]
+  },
+  "cohesion": {
+    "0": 0.3111111111111111,
+    "1": 0.3888888888888889,
+    "2": 0.4,
+    "3": 0.4,
+    "4": 0.4,
+    "5": 0.7,
+    "6": 0.6666666666666666,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0
+  },
+  "gods": [
+    {
+      "id": "how_to_choose_software_framework_page",
+      "label": "How to Choose Software Framework",
+      "degree": 19
+    },
+    {
+      "id": "index_homepage",
+      "label": "Software Comparison Homepage",
+      "degree": 18
+    },
+    {
+      "id": "blog_index_blog_index_page",
+      "label": "Blog Index Page",
+      "degree": 15
+    },
+    {
+      "id": "llms_txt_llms_txt_file",
+      "label": "LLMs.txt AI Crawler Context File",
+      "degree": 12
+    },
+    {
+      "id": "about_about_page",
+      "label": "About Page",
+      "degree": 9
+    },
+    {
+      "id": "blog_avoid_saas_subscription_traps_saas_guide",
+      "label": "How to Avoid SaaS Subscription Traps",
+      "degree": 9
+    },
+    {
+      "id": "assets_app_analyse",
+      "label": "analyse()",
+      "degree": 7
+    },
+    {
+      "id": "blog_how_to_choose_antivirus_antivirus_guide",
+      "label": "How to Choose Antivirus Software in 2026",
+      "degree": 7
+    },
+    {
+      "id": "blog_choosing_a_password_manager_password_manager_guide",
+      "label": "How to Choose a Password Manager",
+      "degree": 7
+    },
+    {
+      "id": "assets_app_generate",
+      "label": "generate()",
+      "degree": 6
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Software Comparison Homepage",
+      "target": "Site Favicon SVG",
+      "source_files": [
+        "index.html",
+        "favicon.svg"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 image); connects across different repos/directories; bridges separate communities; peripheral node `Site Favicon SVG` unexpectedly reaches hub `Software Comparison Homepage`"
+    },
+    {
+      "source": "Software Comparison Homepage",
+      "target": "Site Logo SVG",
+      "source_files": [
+        "index.html",
+        "logo.svg"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 image); connects across different repos/directories; bridges separate communities; peripheral node `Site Logo SVG` unexpectedly reaches hub `Software Comparison Homepage`"
+    },
+    {
+      "source": "Software Comparison Homepage",
+      "target": "Open Graph Social Media Image",
+      "source_files": [
+        "index.html",
+        "og-image.png"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 image); connects across different repos/directories; bridges separate communities; peripheral node `Open Graph Social Media Image` unexpectedly reaches hub `Software Comparison Homepage`"
+    },
+    {
+      "source": "Software Comparison Homepage",
+      "target": "Main Application Script",
+      "source_files": [
+        "index.html",
+        "assets/app.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 code); connects across different repos/directories; peripheral node `Main Application Script` unexpectedly reaches hub `Software Comparison Homepage`"
+    },
+    {
+      "source": "Software Comparison Homepage",
+      "target": "Cookie Consent Script",
+      "source_files": [
+        "index.html",
+        "assets/consent.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 code); connects across different repos/directories; peripheral node `Cookie Consent Script` unexpectedly reaches hub `Software Comparison Homepage`"
+    }
+  ],
+  "tokens": {
+    "input": 54464,
+    "output": 7767
+  }
+}

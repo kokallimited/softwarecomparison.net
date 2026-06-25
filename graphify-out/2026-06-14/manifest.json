@@ -1,0 +1,12 @@
+{
+  "assets/app.js": {
+    "mtime": 1780521355.5702007,
+    "ast_hash": "f0115d6650aa384d4d3f2be69da77d27",
+    "semantic_hash": "f0115d6650aa384d4d3f2be69da77d27"
+  },
+  "assets/consent.js": {
+    "mtime": 1780521355.5702007,
+    "ast_hash": "ee1bb248f03947dda9b31760b763874b",
+    "semantic_hash": "ee1bb248f03947dda9b31760b763874b"
+  }
+}
